@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.teste1{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.pikachu{
+    position: absolute;
+    width: 20%;
+    bottom: 0;
+}
+.jump{
+    animation: jump 500ms ease-out;
+}
+@keyframes jump {
+    0%{
+        bottom: 0;
+    }
+    40%{
+        bottom: 80px;
+    }
+    50%{
+        bottom: 80px;
+    }
+    60%{
+        bottom: 80px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+

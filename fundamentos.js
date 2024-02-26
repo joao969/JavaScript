@@ -15,7 +15,7 @@ const loop = setInterval(() => {
 
     console.log(pikachuPosition);
 
-    if(poke2Position <= 180 && poke2Position > 0 && pikachuPosition < 100){
+    if(poke2Position <= 120 && poke2Position > 0 && pikachuPosition < 100){
 
         poke2.style.animation= 'none';
         poke2.style.left = `${poke2Position}px`;

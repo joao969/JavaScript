@@ -45,9 +45,9 @@
     position: absolute;
     width: 150px;
     bottom: 0;
-    top: -20px;
+    top: -10px;
     right: 0px;
-    animation: pokee-animation 15s infinite linear ;
+    animation: pokee-animation 10s infinite linear ;
 }
 .poke9{
     position: absolute;
@@ -74,8 +74,8 @@
     position: absolute;
     width: 180px;
     bottom: 0;
-    top: 440px;
-    right: 20px;
+    top: 430px;
+    right: 150px;
 }
 
 @keyframes pokee-animation {

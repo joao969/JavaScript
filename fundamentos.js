@@ -26,6 +26,8 @@ const loop = setInterval(() => {
         pikachu.src= '../JavaScript/img/pikamorto.gif';
         pikachu.style.width = '150px'
         pikachu.style.top = '150px'
+
+        
        
         
         clearInterval(loop);

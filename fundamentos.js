@@ -20,8 +20,15 @@ const loop = setInterval(() => {
         poke2.style.animation= 'none';
         poke2.style.left = `${poke2Position}px`;
 
-        poke2.style.animation= 'none';
-        poke2.style.bottom = `${pikachuPosition}px`;
+        pikachu.style.animation= 'none';
+        pikachu.style.bottom = `${pikachuPosition}px`;
+
+        pikachu.src= '../JavaScript/img/pikamorto.gif';
+        pikachu.style.width = '150px'
+        pikachu.style.top = '150px'
+       
+        
+        clearInterval(loop);
     }
     
 }, 10);

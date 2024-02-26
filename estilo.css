@@ -6,12 +6,11 @@
 }
 
 .teste1{
-    width: 60%;
-    height: 500px;
+    width: 70%;
+    height: 600px;
     margin: 0 auto;
     position: relative;
     background-image: url(../JavaScript/img/cenario.gif);
-    backdrop-filter: dark;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -29,36 +28,56 @@
     position: absolute;
     width: 200px;
     bottom: 0;
-    animation: pokee-animation 3s infinite linear ;
+
+    animation: pokee-animation 4s infinite linear ;
 }
-.poke3{
+
+
+.poke8{
     position: absolute;
-    width: 300px;
+    width: 150px;
     bottom: 0;
-    top: 0px;
+    top: 20px;
     right: 20px;
+    animation: pokee-animation 8s infinite linear;
+}
+.poke7{
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    top: -20px;
+    right: 0px;
+    animation: pokee-animation 15s infinite linear ;
+}
+.poke9{
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    top: -10px;
+    right: 20px;
+    animation: pokee-animation 6s infinite linear;
 }
 .poke4{
     position: absolute;
-    width: 400px;
+    width: 500px;
     bottom: 0;
     top:160px;
-    right: 0px;
+    right: -120px;
 }
 .poke5{
     position: absolute;
-    width: 300px;
+    width: 400px;
     bottom: 0;
-  
-    right: 2px;
+    right: -180px;
 }
 .poke6{
     position: absolute;
-    width: 200px;
+    width: 180px;
     bottom: 0;
-    top: 320px;
+    top: 440px;
     right: 20px;
 }
+
 @keyframes pokee-animation {
     from {
         right: 0;
@@ -72,16 +91,16 @@
         bottom: 0;
     }
     40%{
-        bottom: 250px;
+        bottom: 230px;
     }
     50%{
-        bottom: 250px;
+        bottom: 230px;
     }
-    50%{
-        bottom: 200px;
+    40%{
+        bottom: 230px;
     }
-    50%{
-        bottom: 200px;
+    20%{
+        bottom: 230px;
     }
     
     100%{
